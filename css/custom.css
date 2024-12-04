@@ -1,0 +1,719 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #a0153e;
+  --primary-hover-color: #fe3e3e;
+  --secondary-color: #db2e2e;
+  --bg-dark: #f5f5f5;
+  --bg-color: #a0153e;
+  --bg-white: #fff;
+  --white-color: #fff;
+  --grey-color: #c5c5c5;
+  --black-color: #1a1a1d;
+}
+
+body {
+  background-color: var(--bg-dark);
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid {
+  padding: 0px 75px;
+}
+
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  background-color: var(--bg-color);
+  margin-left: 8px;
+  width: 293px;
+}
+.swiper-scrollbar-drag {
+  background-color: var(--white-color);
+}
+
+/* =========================== Product-Card-Design Start ========================== */
+.product_card {
+  margin-bottom: 10px;
+}
+.product_card img {
+  width: 200px;
+  align-self: center;
+  height: 150px;
+  margin-top: 11px;
+  object-fit: scale-down;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--grey-color);
+}
+.product_card .card-title {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.product_card .card-body .star {
+  background-color: var(--bg-color);
+  width: 56px;
+  color: var(--white-color);
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 6px;
+  height: 29px;
+}
+.product_card .card-body .star i {
+  color: #ffb200;
+}
+.product_card .card-body .ratting span {
+  margin-top: 4px;
+  margin-left: 4px;
+  font-size: 15px;
+}
+.product_card .card-body .price {
+  color: var(--bg-color);
+  font-size: 15px;
+  font-weight: 600;
+}
+.product_card .card-body .price .price_sign {
+  font-size: 13px;
+  text-decoration: none;
+}
+.product_card .card-body .price span {
+  text-decoration: line-through;
+  color: rgb(182, 6, 6);
+  margin-left: 5px;
+}
+/* =========================== Product-Card-Design End ============================ */
+
+/* ========================================================== */
+/* ================== Top-Header Start ====================== */
+/* ========================================================== */
+
+.top_header {
+  background-color: var(--bg-white);
+  padding: 4px 0px;
+}
+.top_header .center_side marquee {
+  color: var(--primary-color);
+  margin: 0px;
+  font-weight: 500;
+}
+.top_header .center_side marquee i {
+  color: red;
+}
+.top_header .right_side .login_btn a {
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 3px;
+  color: var(--white-color);
+  font-size: 14px;
+}
+.top_header .right_side .login_btn a:hover {
+  background-color: var(--primary-hover-color);
+}
+
+/* ========================================================== */
+/* ================== Top-Header End ======================== */
+/* ========================================================== */
+
+/* ========================================================== */
+/* ================== Header Start ========================== */
+/* ========================================================== */
+
+.header {
+  background-color: var(--bg-color);
+}
+.header .navbar {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.header .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.navbar-nav > li > .dropdown-menu {
+  background-color: var(--bg-color);
+  color: var(--white-color);
+}
+.header .dropdown-divider {
+  margin: 0px;
+  background-color: var(--white-color);
+}
+.navbar-nav > li > .dropdown-menu a:hover {
+  background-color: var(--secondary-color);
+}
+.header .navbar-nav .categories {
+  background-color: var(--secondary-color);
+}
+.header .navbar-nav .categories i {
+  margin-left: 5px;
+  font-size: 12px;
+}
+.header .navbar-nav .nav-item .nav-link {
+  color: var(--white-color);
+}
+
+.header .navbar-nav .nav-item .nav-link:hover {
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+}
+
+.search {
+  margin-bottom: auto;
+  height: 39px;
+  background-color: #fff;
+  padding: 7px 7px;
+  border-radius: 4px;
+}
+
+.search-input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  /* margin-top: 5px; */
+  caret-color: transparent;
+  /* line-height: 40px; */
+  transition: width 0.4s linear;
+}
+
+.search .search-input {
+  padding: 0 10px;
+  width: 310px;
+  caret-color: #536bf6;
+  font-size: 16px;
+  color: black;
+  transition: width 0.4s linear;
+}
+
+.search-icon:hover {
+  background: var(--secondary-color);
+  color: #fff;
+}
+.search-icon {
+  height: 25px;
+  width: 35px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--bg-color);
+  border-radius: 4px;
+}
+a:link {
+  text-decoration: none;
+}
+.search-icon i {
+  font-size: 12px;
+}
+/* ------------- mobile-search start---------------- */
+.mobile_search {
+  background-color: var(--bg-color);
+  padding: 5px 0px;
+}
+.mobile_search .right_side .login_btn a {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 3px;
+  color: var(--white-color);
+  font-size: 14px;
+}
+.mobile_search .search-input {
+  width: 0%;
+}
+
+/* ------------- mobile-search end---------------- */
+
+/* ========================================================== */
+/* ================== Header End ========================== */
+/* ========================================================== */
+
+/* =============================================================== */
+/* ================== Mobile-Menu Start ========================== */
+/* =============================================================== */
+.mobile_menu {
+  background-color: var(--bg-color);
+  display: block;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+  padding: 6px 0px;
+}
+.mobile_menu .menu ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.mobile_menu .menu li {
+  list-style: none;
+  text-align: center;
+}
+.mobile_menu .menu li a {
+  text-align: center;
+  font-size: 13px;
+  color: var(--white-color);
+}
+.mobile_menu .menu li a i {
+  font-size: 24px;
+}
+
+.mobile_menu .menu li a p {
+  padding: 0;
+  margin-top: -7px;
+  margin-bottom: 0px;
+}
+/* =============================================================== */
+/* ================== Mobile-Menu End ========================== */
+/* =============================================================== */
+
+/* ========================================================== */
+/* ================== Slider Start ========================== */
+/* ========================================================== */
+.slider .container-fluid {
+  margin: 0px;
+  padding-left: 0px;
+}
+.slider .item {
+  height: 360px;
+}
+.slider .item img {
+  object-fit: fill;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+}
+
+.slider .owl-prev,
+.slider .owl-next {
+  position: absolute;
+  top: 37%;
+  background-color: var(--primary-color) !important;
+  color: var(--white-color) !important;
+  font-size: 20px !important;
+  width: 27px;
+  border-radius: 6%;
+  height: 45px;
+}
+.slider .owl-prev {
+  left: 0;
+}
+.slider .owl-next {
+  right: 0;
+}
+.slider .owl-theme .owl-dots {
+  display: none;
+}
+
+/* ===================================================================== */
+/* ================== Best-Selling-Gear Start ========================== */
+/* ===================================================================== */
+
+.best_selling_gear {
+  margin: 30px 0px;
+  background-color: #db2e2e;
+}
+.best_selling_gear .heading h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white-color);
+  padding-bottom: 7px;
+}
+.best_selling_gear .best_selling {
+  margin-top: 10px;
+}
+.best_selling_gear .container-fluid {
+  position: relative;
+  top: 70px;
+}
+
+/* ------------- mobile-view -------------- */
+.best_selling_gear .mobile_view .swiper {
+  padding: 0px 10px;
+}
+/* .best_selling_gear .mobile_view .swiper-button-next,
+.best_selling_gear .mobile_view .swiper-button-prev {
+  background-color: var(--primary-color);
+  border-radius: 3%;
+  padding: 10px;
+  color: var(--white-color);
+}
+.best_selling_gear .mobile_view .swiper-button-next:after,
+.best_selling_gear .mobile_view .swiper-button-prev:after {
+  font-size: 13px;
+  width: 40px;
+} */
+
+/* =================================================================== */
+/* ================== Best-Selling-Gear End ========================== */
+/* =================================================================== */
+
+/* ========================================================================= */
+/* ================== Our-Latest-Collection Start ========================== */
+/* ========================================================================= */
+
+.our_latest_collection {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.our_latest_collection .heading h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black-color);
+  padding-bottom: 7px;
+}
+.our_latest_collection .swiper {
+  padding: 0px 10px;
+}
+.our_latest_collection .swiper-button-next,
+.our_latest_collection .swiper-button-prev {
+  background-color: var(--primary-color);
+  border-radius: 3%;
+  padding: 10px;
+  color: var(--white-color);
+}
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  background-color: var(--bg-color);
+  margin-left: 8px;
+  width: 293px;
+  display: none;
+}
+.our_latest_collection .swiper-button-next:after,
+.our_latest_collection .swiper-button-prev:after {
+  font-size: 13px;
+  width: 40px;
+}
+/* ========================================================================= */
+/* ================== Our-Latest-Collection End ========================== */
+/* ========================================================================= */
+
+/* ============================================================== */
+/* ================== Flash-Sale Start ========================== */
+/* ============================================================== */
+.flash_Sale {
+  margin-top: 58px;
+}
+.flash_Sale .heading h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black-color);
+  padding-bottom: 7px;
+}
+.flash_Sale .flash_heading {
+  background-color: var(--bg-color);
+  padding: 10px 15px;
+}
+.flash_Sale .flash_heading .left_side h4 {
+  font-size: 19px;
+  color: var(--white-color);
+  margin: 0;
+  font-weight: 400;
+}
+.flash_Sale .flash_heading .mid_side h4 {
+  font-size: 19px;
+  color: var(--white-color);
+  margin: 0;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.flash_Sale .flash_heading .mid_side span {
+  background-color: var(--secondary-color);
+  margin-left: 10px;
+  padding: 4px 10px;
+  color: var(--white-color);
+}
+.flash_Sale .flash_heading .mid_side i {
+  color: var(--white-color);
+}
+.flash_Sale .flash_heading .right_side .custom_btn {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  padding: 4px;
+  width: 103px;
+  text-align: center;
+  height: 32px;
+}
+.flash_Sale .flash_heading .right_side .custom_btn:hover {
+  background-color: var(--primary-hover-color);
+}
+
+/* ============================================================== */
+/* ================== Flash-Sale End ========================== */
+/* ============================================================== */
+
+/* ===================================================================== */
+/* ================== Flash-Sale-Banner Start ========================== */
+/* ===================================================================== */
+.flash_sale_banner {
+  background-color: var(--secondary-color);
+  padding: 45px 0px;
+}
+.flash_sale_banner .swiper {
+  padding: 0px 10px;
+}
+
+/* ===================================================================== */
+/* ================== Flash-Sale-Banner End ========================== */
+/* ===================================================================== */
+
+/* ===================================================================== */
+/* ===================== Just-For-You Start ============================ */
+/* ===================================================================== */
+.just_for_you {
+  margin-top: 58px;
+  margin-bottom: 58px;
+}
+.just_for_you .heading h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black-color);
+  padding-bottom: 7px;
+}
+.just_for_you .more_products {
+  margin-top: 30px;
+}
+.just_for_you .more_products button {
+  width: 100%;
+  height: 38px;
+  border: 1px solid var(--bg-color);
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+  border-radius: 3px;
+}
+.just_for_you .more_products button:hover {
+  background-color: var(--bg-color);
+  color: var(--white-color);
+  transition: 0.5s ease-in-out;
+}
+/* ===================================================================== */
+/* ===================== Just-For-You End ============================ */
+/* ===================================================================== */
+
+/* ===================================================================== */
+/* ======================== Brands Start =============================== */
+/* ===================================================================== */
+.brands {
+  margin-top: 58px;
+  margin-bottom: 58px;
+}
+.brands .heading h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black-color);
+  padding-bottom: 7px;
+}
+.brands .logos {
+  margin-top: 19px;
+}
+
+.brands .logos img {
+  border-radius: 50%;
+  height: 179px;
+  object-fit: cover;
+}
+.brands .logos .card {
+  background-color: var(--bg-dark);
+}
+
+.brands .logos .card p {
+  margin-top: 12px;
+  color: var(--black-color);
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+}
+.brands .logos .card p:hover {
+  transform: scale(1.15);
+}
+.brands .logos i {
+  display: block;
+  margin-left: 6px;
+  margin-top: 4px;
+  font-size: 13px;
+  transition: 2s;
+}
+.brands .logos p:hover i {
+  display: block;
+}
+
+/* ===================================================================== */
+/* ======================== Brands End =============================== */
+/* ===================================================================== */
+
+/* ===================================================================== */
+/* ======================== Shipping Start ============================= */
+/* ===================================================================== */
+.shipping_sec {
+  margin-top: 58px;
+  /* margin-bottom: 20px; */
+  background-color: var(--white-color);
+  padding: 35px 0px;
+}
+.shipping_sec .free_shipping {
+  border: 1px solid var(--primary-color);
+  text-align: center;
+  justify-content: center;
+  padding: 12px 0px;
+  /* background-color: var(--primary-color); */
+  /* color: var(--white-color); */
+  border-radius: 3px;
+  display: flex;
+}
+
+.shipping_sec .free_shipping img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.shipping_sec .free_shipping h5 {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.shipping_sec .free_shipping p {
+  margin-bottom: 0;
+  margin-top: 5px;
+  font-size: 13px;
+}
+.shipping_sec .owl-theme .owl-nav {
+  display: none;
+}
+
+/* ===================================================================== */
+/* ======================== Shipping End ============================= */
+/* ===================================================================== */
+
+/* ===================================================================== */
+/* ========================= Footer Start ============================== */
+/* ===================================================================== */
+.footer {
+  background-color: var(--primary-color);
+
+  padding: 30px 0px;
+  color: var(--white-color);
+}
+.footer .mid_side h4 {
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer .mid_side ul {
+  padding: 0px;
+}
+.footer .mid_side ul li {
+  list-style: none;
+  margin-bottom: 4px;
+}
+.footer .mid_side ul li a {
+  color: var(--white-color);
+  font-size: 15px;
+}
+.footer .mid_side ul li a:hover {
+  color: var(--primary-hover-color);
+}
+.footer .right_side h4 {
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer .right_side p {
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.footer .right_side a {
+  margin-left: 27px;
+  color: var(--white-color);
+  font-size: 15px;
+}
+.footer .right_side a:hover {
+  color: var(--primary-hover-color);
+}
+
+/* ===================================================================== */
+/* ========================= Footer End ============================== */
+/* ===================================================================== */
+
+/* =========================================================================== */
+/* ========================= Footer-Bottom Start ============================= */
+/* =========================================================================== */
+.footer_bottom {
+  background-color: var(--secondary-color);
+  /* margin-bottom: 200px; */
+}
+
+.footer_bottom .left_side p {
+  margin-bottom: 0px;
+  color: var(--white-color);
+  font-size: 15px;
+}
+.footer_bottom .mid_side .centerdiv {
+  /*		height: 100vh;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_bottom .mid_side .centerdiv a {
+  height: 35px;
+  width: 35px;
+  background-color: #f5f6fa;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+  line-height: 42px;
+  /*		box-shadow: 1px 4px 2px 2px #dedde1;*/
+}
+.footer_bottom .mid_side .centerdiv a i {
+  font-size: 19px;
+  transition: all 0.3s linear;
+}
+.footer_bottom .mid_side .centerdiv a:hover i {
+  transform: scale(1.4) !important;
+}
+.bi-facebook {
+  color: #316ff6;
+}
+.bi-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 200px; /* change this to change the size*/
+}
+.bi-tiktok {
+  color: #111111;
+  filter: drop-shadow(-5px -5px 0 #24f6f0) contrast(150%) brightness(110%);
+  z-index: -1;
+}
+.bi-tiktok::after {
+  filter: drop-shadow(5px 5px 0 #f70250) contrast(150%) brightness(110%);
+  z-index: -1;
+}
+.bi-twitter-x {
+  color: #131418;
+}
+
+/* =========================================================================== */
+/* ========================= Footer-Bottom End ============================= */
+/* =========================================================================== */

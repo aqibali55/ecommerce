@@ -1,0 +1,552 @@
+@media only screen and (max-width: 425px) {
+  .container-fluid {
+    padding: 0px 13px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-fluid {
+    padding: 0px 30px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-fluid {
+    padding: 0px 30px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .top_header .center_side marquee {
+    margin-bottom: -6px;
+    font-size: 13px;
+  }
+  .mobile_menu .menu li a i {
+    font-size: 18px;
+  }
+  .mobile_menu .menu li a p {
+    margin-top: -5px;
+    margin-bottom: 0px;
+    font-size: 11px;
+  }
+  .search {
+    margin-bottom: auto;
+    height: 30px;
+    background-color: #fff;
+    padding: 3px 3px;
+    border-radius: 4px;
+  }
+  .our_latest_collection .heading h1,
+  .best_selling_gear .heading h1,
+  .flash_Sale .heading h1,
+  .just_for_you .heading h1,
+  .brands .heading h1 {
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 2px;
+  }
+  .best_selling_gear .heading h1 {
+    margin-top: -24px;
+  }
+  .our_latest_collection .heading h1 {
+    margin-top: 10px;
+  }
+  .flash_sale_banner .swiper .product_card,
+  .best_selling_gear .swiper .product_card,
+  .our_latest_collection .swiper .product_card {
+    margin-bottom: 18px;
+  }
+  .swiper-horizontal > .swiper-scrollbar,
+  .swiper-scrollbar.swiper-scrollbar-horizontal {
+    background-color: var(--bg-color);
+    margin-left: 8px;
+    width: 293px;
+  }
+  .swiper-scrollbar-drag {
+    background-color: var(--white-color);
+  }
+  .our_latest_collection .swiper-button-next,
+  .our_latest_collection .swiper-button-prev {
+    display: none;
+  }
+  .swiper-horizontal > .swiper-scrollbar,
+  .swiper-scrollbar.swiper-scrollbar-horizontal {
+    background-color: var(--bg-color);
+    margin-left: 8px;
+    width: 293px;
+    display: block;
+  }
+  .slider .item {
+    height: 200px;
+  }
+  .slider .owl-prev,
+  .slider .owl-next {
+    position: absolute;
+    top: 37%;
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+    font-size: 14px !important;
+    width: 16px;
+    border-radius: 6%;
+    height: 27px;
+  }
+  .just_for_you {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .container-fluid {
+    padding: 0px 15px;
+  }
+  .best_selling_gear {
+    margin-top: 0px;
+  }
+  .best_selling_gear .container-fluid {
+    top: 40px;
+  }
+  .best_selling_gear .best_selling {
+    margin-top: 0px;
+  }
+
+  .product_card {
+    margin-bottom: 0px;
+  }
+  .product_card .card-body {
+    padding: 6px;
+  }
+  .product_card .card-title {
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  .product_card .card-body .price {
+    color: var(--bg-color);
+    font-size: 9px;
+    font-weight: 600;
+  }
+  .product_card .card-body .price p {
+    margin-bottom: 0;
+    font-size: 11px;
+  }
+  .product_card .card-body .ratting p {
+    margin-bottom: 7px;
+  }
+  .product_card img {
+    width: 136px;
+    border-bottom: 1px solid var(--grey-color);
+  }
+  .product_card .card-body .star {
+    background-color: var(--bg-color);
+    width: 43px;
+    color: var(--white-color);
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 6px;
+    height: 22px;
+  }
+  .product_card .card-body .ratting span {
+    margin-top: 3px;
+    margin-left: 4px;
+    font-size: 11px;
+  }
+  .product_card .card-body .price .price_sign {
+    font-size: 9px;
+    text-decoration: none;
+  }
+  .product_card .card-body .price span {
+    margin-left: 2px;
+  }
+  /* -------------------------------------- */
+  .our_latest_collection {
+    margin-top: 46px;
+    margin-bottom: 25px;
+  }
+  .flash_Sale {
+    margin-top: 25px;
+  }
+  .flash_Sale .flash_heading .left_side h4 {
+    font-size: 14px;
+    color: var(--white-color);
+    margin: 0;
+    font-weight: 400;
+  }
+  .flash_Sale .flash_heading .mid_side {
+    justify-content: end;
+    margin-top: 6px;
+  }
+  .flash_Sale .flash_heading .mid_side h4 {
+    font-size: 13px;
+    color: var(--white-color);
+    margin: 0;
+    margin-top: 6px;
+    font-weight: 400;
+    margin-right: -4px;
+  }
+  .flash_Sale .flash_heading .mid_side span {
+    background-color: var(--secondary-color);
+    margin-left: 10px;
+    padding: 2px 4px;
+    font-size: 11px;
+    color: var(--white-color);
+  }
+
+  .flash_sale_banner {
+    background-color: var(--secondary-color);
+    padding: 20px 0px;
+  }
+  .just_for_you .more_products {
+    margin-top: 26px;
+  }
+  .just_for_you .more_products button {
+    width: 100%;
+    height: 29px;
+    font-size: 14px;
+  }
+  .brands .logos img {
+    border-radius: 50%;
+    height: 84px;
+    object-fit: cover;
+  }
+  .brands {
+    margin-top: 26px;
+    margin-bottom: 0px;
+  }
+  .shipping_sec .free_shipping img {
+    height: 46px;
+    margin-right: 10px;
+    width: 54px;
+  }
+  .owl-theme .owl-dots {
+    margin-top: opx;
+  }
+  .owl-theme .owl-dots .owl-dot.active span,
+  .owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--primary-color);
+  }
+  .footer .mid_side h4,
+  .footer .right_side h4 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    background-color: var(--secondary-color);
+    padding: 8px 5px;
+    border-radius: 3px;
+  }
+  .footer_bottom .left_side p {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .footer_bottom .mid_side .centerdiv {
+    margin-bottom: 10px;
+  }
+  .footer_bottom .right_side {
+    margin-bottom: 10px;
+  }
+  .footer_bottom {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 321px) {
+  .top_header .center_side marquee {
+    margin-bottom: -6px;
+    font-size: 13px;
+  }
+  .mobile_menu .menu li a i {
+    font-size: 20px;
+  }
+  .mobile_menu .menu li a p {
+    margin-top: -5px;
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+  .search {
+    margin-bottom: auto;
+    height: 30px;
+    background-color: #fff;
+    padding: 3px 3px;
+    border-radius: 4px;
+  }
+  .our_latest_collection .heading h1,
+  .best_selling_gear .heading h1,
+  .flash_Sale .heading h1,
+  .just_for_you .heading h1,
+  .brands .heading h1 {
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 2px;
+  }
+  .best_selling_gear .heading h1 {
+    margin-top: -24px;
+  }
+  .our_latest_collection .heading h1 {
+    margin-top: 10px;
+  }
+  .swiper-horizontal > .swiper-scrollbar,
+  .swiper-scrollbar.swiper-scrollbar-horizontal {
+    background-color: var(--bg-color);
+    margin-left: 8px;
+    width: 293px;
+    display: block;
+  }
+  .flash_sale_banner .swiper .product_card,
+  .best_selling_gear .swiper .product_card,
+  .our_latest_collection .swiper .product_card {
+    margin-bottom: 18px;
+  }
+  .swiper-horizontal > .swiper-scrollbar,
+  .swiper-scrollbar.swiper-scrollbar-horizontal {
+    background-color: var(--bg-color);
+    margin-left: 8px;
+    width: 94%;
+  }
+  .swiper-scrollbar-drag {
+    background-color: var(--white-color);
+  }
+  .our_latest_collection .swiper-button-next,
+  .our_latest_collection .swiper-button-prev {
+    display: none;
+  }
+  /* ------------------------------------------------ */
+  .our_latest_collection .swiper-button-next,
+  .our_latest_collection .swiper-button-prev {
+    display: none;
+  }
+  .just_for_you {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .container-fluid {
+    padding: 0px 15px;
+  }
+  .best_selling_gear .container-fluid {
+    top: 40px;
+  }
+  .best_selling_gear .best_selling {
+    margin-top: 0px;
+  }
+  .best_selling_gear {
+    margin-top: 0px;
+  }
+
+  .product_card {
+    margin-bottom: 0px;
+  }
+  .product_card .card-body {
+    padding: 6px;
+  }
+  .product_card .card-title {
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  .product_card .card-body .price {
+    color: var(--bg-color);
+    font-size: 9px;
+    font-weight: 600;
+  }
+  .product_card .card-body .price p {
+    margin-bottom: 0;
+    font-size: 11px;
+  }
+  .product_card .card-body .ratting p {
+    margin-bottom: 7px;
+  }
+  .product_card img {
+    width: 136px;
+    border-bottom: 1px solid var(--grey-color);
+  }
+  .product_card .card-body .star {
+    background-color: var(--bg-color);
+    width: 43px;
+    color: var(--white-color);
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 6px;
+    height: 22px;
+  }
+  .product_card .card-body .ratting span {
+    margin-top: 3px;
+    margin-left: 4px;
+    font-size: 11px;
+  }
+  .product_card .card-body .price .price_sign {
+    font-size: 9px;
+    text-decoration: none;
+  }
+  .product_card .card-body .price span {
+    margin-left: 2px;
+  }
+  /* -------------------------------------- */
+  .our_latest_collection {
+    margin-top: 53px;
+    margin-bottom: 0px;
+  }
+  .flash_Sale {
+    margin-top: 26px;
+  }
+  .flash_Sale .flash_heading .left_side h4 {
+    font-size: 14px;
+    color: var(--white-color);
+    margin: 0;
+    font-weight: 400;
+  }
+  .flash_Sale .flash_heading .mid_side {
+    justify-content: end;
+    margin-top: 6px;
+  }
+  .flash_Sale .flash_heading .mid_side h4 {
+    font-size: 13px;
+    color: var(--white-color);
+    margin: 0;
+    margin-top: 6px;
+    font-weight: 400;
+    margin-right: -4px;
+  }
+  .flash_Sale .flash_heading .mid_side span {
+    background-color: var(--secondary-color);
+    margin-left: 10px;
+    padding: 2px 4px;
+    font-size: 11px;
+    color: var(--white-color);
+  }
+
+  .flash_sale_banner {
+    background-color: var(--secondary-color);
+    padding: 20px 0px;
+  }
+  /* ------------------------------------------------ */
+  .just_for_you {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .container-fluid {
+    padding: 0px 15px;
+  }
+  .search {
+    margin-bottom: auto;
+    height: 33px;
+    padding: 4px 7px;
+  }
+  .slider .swiper {
+    width: 100%;
+    height: 200px;
+  }
+  .slider .item {
+    height: 200px;
+  }
+  .slider .owl-prev,
+  .slider .owl-next {
+    position: absolute;
+    top: 37%;
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+    font-size: 14px !important;
+    width: 16px;
+    border-radius: 6%;
+    height: 27px;
+  }
+  .best_selling_gear .container-fluid {
+    top: 40px;
+  }
+
+  .product_card .card-title {
+    font-size: 13px;
+    margin-top: 0px;
+  }
+  .product_card img {
+    width: 150px;
+    border-bottom: 1px solid var(--grey-color);
+  }
+  .product_card .card-body .star {
+    width: 51px;
+    font-size: 11px;
+    padding: 6px;
+    border-radius: 6px;
+    height: 27px;
+  }
+  .product_card .card-body .ratting span {
+    font-size: 13px;
+  }
+  .product_card .card-body .price {
+    font-size: 13px;
+  }
+  .product_card .card-body {
+    padding: 6px;
+  }
+  .just_for_you .more_products {
+    margin-top: 26px;
+  }
+  .just_for_you .more_products button {
+    width: 100%;
+    height: 29px;
+    font-size: 14px;
+  }
+
+  .brands .logos img {
+    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+  }
+  .brands {
+    margin-top: 26px;
+    margin-bottom: 0px;
+  }
+  .shipping_sec .free_shipping img {
+    height: 46px;
+    margin-right: 10px;
+    width: 54px;
+  }
+  .owl-theme .owl-dots {
+    margin-top: 13px;
+  }
+  .owl-theme .owl-dots .owl-dot.active span,
+  .owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--primary-color);
+  }
+  .footer .mid_side h4,
+  .footer .right_side h4 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    background-color: var(--secondary-color);
+    padding: 8px 5px;
+    border-radius: 3px;
+  }
+  .footer_bottom .left_side p {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .footer_bottom .mid_side .centerdiv {
+    margin-bottom: 10px;
+  }
+  .footer_bottom .right_side {
+    margin-bottom: 10px;
+  }
+  .footer_bottom {
+    margin-bottom: 55px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .top_header .center_side marquee {
+    margin-bottom: -6px;
+  }
+  .shipping_sec .free_shipping img {
+    height: 46px;
+    margin-right: 10px;
+    width: 54px;
+  }
+  .owl-theme .owl-dots {
+    margin-top: 13px;
+  }
+  .owl-theme .owl-dots .owl-dot.active span,
+  .owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--primary-color);
+  }
+  .brands .logos img {
+    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+  }
+}
